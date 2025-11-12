@@ -281,6 +281,37 @@
       color: var(--accent-2);
     }
 
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .testimonial-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .testimonial-card strong {
+      color: var(--accent);
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .guarantee-card {
+      background: rgba(12,13,17,0.9);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 24px;
+      padding: 2rem;
+      text-align: center;
+    }
+
     .faq {
       display: grid;
       gap: 1rem;
@@ -344,43 +375,96 @@
     <section class="hero">
       <div>
         <span class="badge">AI Reactivation Agent</span>
-        <h1>Turn idle leads into <span>booked appointments</span> before the quarter ends.</h1>
-        <p>Your database is a goldmine. Our AI agent writes personalized texts, replies in real-time, and reactivates ignored inquiries so your sales team only talks to people ready to buy.</p>
-        <a href="https://calendar.app.google/Ypk96WxWr9GvoXsM9" class="cta-primary" target="_blank" rel="noopener">Claim "Free Until Results" Slot</a>
+        <h1>Turn your old leads into <span>booked appointments</span> automatically.</h1>
+        <p>Ragsites keeps following up with the people you already paid to reach, using conversational SMS that quietly nudges them back onto your calendar so your team stays focused on real calls.</p>
+        <p style="color: var(--muted); font-size:0.95rem;">Works for roofing, solar, real estate, med spas, auto shops and most service businesses.</p>
+        <a href="https://calendar.app.google/Ypk96WxWr9GvoXsM9" class="cta-primary" target="_blank" rel="noopener">Book Your Free Strategy Call</a>
         <div class="metrics">
-          <div class="metric-card"><strong>62%</strong>avg reply rate on cold databases</div>
-          <div class="metric-card"><strong>18+</strong>booked calls per campaign</div>
-          <div class="metric-card"><strong>48 hrs</strong>to deploy in your CRM</div>
+          <div class="metric-card"><strong>32%</strong>avg reply rate on cold databases</div>
+          <div class="metric-card"><strong>10+</strong>booked calls per campaign</div>
+          <div class="metric-card"><strong>48 - 72 hrs</strong>to deploy in your CRM</div>
         </div>
       </div>
       <div class="hero-card">
         <h3>Stop letting money collect dust.</h3>
         <ul class="list">
-          <li>AI re-engages old leads automatically, no extra reps required.</li>
-          <li>Human-level texts in minutes, no additional sales reps required.</li>
-          <li>Free pilot run so you only pay once results show up.</li>
+          <li>AI re-engages old leads with simple, natural-sounding conversations.</li>
+          <li>Touches CRM records, missed-call lists, and instant-form leads.</li>
+          <li>Free pilot run so you only pay after the first appointments are booked.</li>
         </ul>
         <a href="https://calendar.app.google/Ypk96WxWr9GvoXsM9" class="cta-primary" target="_blank" rel="noopener">See Available Times</a>
       </div>
     </section>
 
     <section>
-      <p class="subheading">Trusted for agencies, medspas, gyms, real-estate teams & enterprise service brands</p>
+      <h2 class="section-heading">You’re sitting on revenue you already paid for.</h2>
+      <p class="subheading">Those “dead” leads in your CRM know who you are. You paid to acquire them. Every day they sit untouched is pipeline left on the table.</p>
       <div class="cards-grid">
         <div class="card">
-          <small>Problem</small>
-          <h4>Old leads collecting dust</h4>
-          <p>Thousands of names in your CRM, but no one has time to send smart follow-up messages that feel personal.</p>
+          <small>Pain #1</small>
+          <h4>Ignored conversations</h4>
+          <p>Missed calls, unanswered form fills, and thousands of cold texts that never got a follow-up.</p>
         </div>
         <div class="card">
-          <small>Solution</small>
-          <h4>AI agent that thinks like your closer</h4>
-          <p>We plug in your scripts, offers, and FAQs so the agent texts, emails, and chats exactly like your best rep 24/7.</p>
+          <small>Pain #2</small>
+          <h4>No time for 1:1 outreach</h4>
+          <p>Your team can’t send thoughtful, personal check-ins to everyone. So leads forget and buy elsewhere.</p>
         </div>
         <div class="card">
-          <small>Outcome</small>
-          <h4>Booked appointments, cash collected</h4>
-          <p>Our campaigns pay for themselves in days because your next 10 appointments are already sitting in the database.</p>
+          <small>Pain #3</small>
+          <h4>No trust, no urgency</h4>
+          <p>Generic blasts feel spammy. Prospects need human context, social proof, and a reason to act now.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-heading">Imagine your old leads texting back tomorrow.</h2>
+      <p class="subheading">When the right message lands in their inbox, replies start to sound like:</p>
+      <div class="card" style="margin-bottom:1.5rem;">
+        <ul class="list">
+          <li>“Is this still available? I can swing by Thursday.”</li>
+          <li>“We forgot about this, can you send the booking link again?”</li>
+          <li>“Let’s pick it back up next week.”</li>
+        </ul>
+      </div>
+      <div class="cards-grid">
+        <div class="card">
+          <small>24-Hour Sprint</small>
+          <h4>We plug into your CRM</h4>
+          <p>Upload a CSV. We map segments, objections, and offers within 24 hours.</p>
+        </div>
+        <div class="card">
+          <small>Live Conversations</small>
+          <h4>AI handles the back-and-forth</h4>
+          <p>Every reply is contextual and human. The agent remembers history, overcomes objections, and nurtures like your best closer.</p>
+        </div>
+        <div class="card">
+          <small>Appointments</small>
+          <h4>Calls drop onto your calendar</h4>
+          <p>Qualified prospects are passed to your team with summaries so they just show up and close.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-heading">Teams trust Ragsites to wake up silent pipelines.</h2>
+      <p class="subheading">Real operators are booking calls from databases they thought were dead.</p>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <strong>Alyssa C.</strong>
+          <p>“We were able to see actual results within 2 weeks of the pilot run. The AI messages were very personalized and human which was shocking and hooked old leads back again. I would totally recommend it to anyone!”</p>
+          <em>Agency partner</em>
+        </div>
+        <div class="testimonial-card">
+          <strong>Marco R.</strong>
+          <p>“I was really skeptical of the lead reactivation service initially, but I was in for a genuine surprise. Would strongly recommend trying the 2 week trial.”</p>
+          <em>Operations Lead</em>
+        </div>
+        <div class="testimonial-card">
+          <strong>Dana L.</strong>
+          <p>“Our abandoned booking rate was killing us, but the AI's follow-ups are so natural that clients don't realize it's automated. We went from 8% to 31% conversion on idle leads in one month.”</p>
+          <em>Leads Growth</em>
         </div>
       </div>
     </section>
@@ -404,9 +488,22 @@
       </div>
     </section>
 
+    <section>
+      <div class="guarantee-card">
+        <h2 class="section-heading" style="margin-bottom:0.5rem;">Start with a low-pressure pilot.</h2>
+        <p class="subheading" style="margin-bottom:1.5rem;">If we can’t show new conversations or appointments in 15 days, we waive the fee. No long contracts. No surprise add-ons.</p>
+        <ul class="list" style="justify-content:center; max-width:700px; margin:0 auto 1.5rem;">
+          <li>Free pilot run so you only invest after results show up.</li>
+          <li>Done-for-you setup, scripts, and CRM integration.</li>
+          <li>Simple dashboard and short daily notes so you know what’s happening.</li>
+        </ul>
+        <a href="https://calendar.app.google/Ypk96WxWr9GvoXsM9" class="cta-primary" target="_blank" rel="noopener">See how the pilot works</a>
+      </div>
+    </section>
+
     <div class="cta-panel">
-      <h3>Your next 10 appointments are already in your CRM.</h3>
-      <p>Give us your idle leads and we’ll fill your pipeline. Book a call to activate the AI agent and claim the free-until-results guarantee.</p>
+      <h3>Stop letting old leads die in your CRM.</h3>
+      <p>Give us a week and we’ll show you what your existing database can still do. Grab a time to walk through the pilot.</p>
       <a href="https://calendar.app.google/Ypk96WxWr9GvoXsM9" class="cta-primary" target="_blank" rel="noopener">Book Calendar Slot</a>
     </div>
 
